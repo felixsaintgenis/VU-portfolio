@@ -16,7 +16,7 @@ class BlogRoll extends React.Component {
               <article>
                 <header>
                   {post.frontmatter.featuredimage ? (
-                    <div>
+                    <div style={{ marginBottom: '8rem' }}>
                       <PreviewCompatibleImage
                         imageInfo={{
                           image: post.frontmatter.featuredimage,
